@@ -1,0 +1,43 @@
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="estilo.css">   
+<form action="archivo_imaginario.php" method="post">
+    <h1>Formulario</h1>
+    <label>Nombre:</label>
+    <input type="text" name="nombre">
+    <br><br>
+    <label>Edad:</label>
+    <input type="number" name="edad">
+    <br><br>
+    <label>Fecha de nacimiento:</label>
+    <input type="date" name="fecha_nacimiento">
+    <br><br>
+    <label>Hora de la cita:</label>
+    <input type="time" name="hora_cita">
+    <br><br>
+    <label>Correo electronico:</label>
+    <input type="email" name="correo">
+    <br><br>
+    <label>Contraseña:</label>
+    <input type="password" name="contrasena">
+    <br><br>
+    <label>Sexo:</label>
+    <small>mujer</small>
+    <input value="mujer" type="radio" name="sexo">
+    <small>hombre</small>
+    <input value="hombre" type="radio" name="sexo">
+    <br><br>
+    <label>Estado:</label>
+    <select name="estado">
+        <option value="1">Seleccione su estado</option>
+        <option value="2">Sinaloa</option>
+        <option value="3">Nayarit</option>
+        <option value="4">Sonora</option>
+        <option value="5">Durango</option>
+    </select>
+    <br><br>
+    <label>Domicilio</label>
+    <textarea name="domicilio" cols="30" rows="4"></textarea>
+    <br><br>
+    <input type="reset" value="cancelar">
+    <input type="submit" value="guardar">
+</form>

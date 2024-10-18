@@ -1,0 +1,29 @@
+nav{
+	background-color: #19AEF9;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 10px 50px;
+}
+
+nav a{
+	font-size: 40px;
+	font-family: "georgia";
+	font-weight: 400;
+	font-style: italic;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px red;
+	margin: 0px 10px;
+}
+
+.enlace{
+	color: skyblue;
+
+}
+
+input{
+	background-color: green;
+}
+
+.formulario{
+	background-color: green;
+}
